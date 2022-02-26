@@ -1,0 +1,12 @@
+ - They			---- PRONOUN
+ - are			---- VERB
+ - awesome			---- ADJECTIVE
+ - and			---- CONJUNCTION
+ - hilarious			---- ADJECTIVE
+ - .			---- FULLSTOP
+ Line : 2
+ - Dave			---- NOUN
+ - should			---- VERB
+ - join			---- VERB
+ - them			---- NOUN
+ - .			---- FULLSTOP
