@@ -1,6 +1,6 @@
 <h2>
 
-[ For parts of speech for subset of ENGLISH language without using SYMBOL TABLE. ]()
+[ For parts of speech for subset of ENGLISH language with SYMBOL TABLE ](/Assignment%2003/3b)
 
 </h2>
 <div class="img">
