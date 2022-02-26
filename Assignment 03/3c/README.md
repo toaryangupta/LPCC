@@ -1,15 +1,15 @@
 <h2>
 
-[ For parts of speech for subset of ENGLISH language without using SYMBOL TABLE. ]()
+[ Write Lexical Analyser without using SYMBOL TABLE for subset of 'C' programming language	 ](/Assignment%2003/3c)
 
 </h2>
 <div class="img">
   <li>Running the files </li>
-  <img src="https://user-images.githubusercontent.com/99306046/155845028-30454901-7c8b-4575-89d3-80bcd6c91666.png"  "/>
+  <img src="https://user-images.githubusercontent.com/99306046/155845277-e929501b-1baa-4e4d-8897-9086a46adb2e.png"  "/>
 
 </div>
 
-<h3> Lex File- 3d.l</h3>
+<h3> Lex File- 3c.l</h3>
 
 ```lex
 %{
@@ -115,6 +115,10 @@ int lookupWord(char *word)
 }
 
 ```
+
+
+[ OutputFile ]( /Assignment%2003/3c/3c_outputFile.txt)
+                                         
 
 
 
