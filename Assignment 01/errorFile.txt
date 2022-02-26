@@ -1,0 +1,4 @@
+
+ Error File
+1	Duplicate Declaration of A at location 109
+2	No declaration of D
