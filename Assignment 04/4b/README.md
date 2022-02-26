@@ -7,7 +7,7 @@
 
 <div class="img">
   <li>Running the files </li>
-  <img src="https://user-images.githubusercontent.com/99306046/155846327-21b13b1d-435d-4d3f-8fd1-c2e7879d5fd2.png"  "/>
+  <img src="https://user-images.githubusercontent.com/99306046/155846327-21b13b1d-435d-4d3f-8fd1-c2e7879d5fd2.png"  />
 
 
 
