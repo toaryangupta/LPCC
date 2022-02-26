@@ -1,0 +1,160 @@
+ // Linked list 		--- COMMENT
+ #include<stdio.h>		--- PREPROCESSOR
+ #include<stdlib.h>		--- PREPROCESSOR
+ // Creating a node		--- COMMENT
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ {		--- BLOCK BEGIN
+ int		--- DATATYPE
+ value		--- IDENTIFIER
+ ;		--- DELIMITER
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ next		--- IDENTIFIER
+ ;		--- DELIMITER
+ }		--- BLOCK END
+ ;		--- DELIMITER
+ // print the linked list value		--- COMMENT
+ void		--- DATATYPE
+ printLinkedlist		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ p		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ {		--- BLOCK BEGIN
+ while		--- ITERATIVE CONSTRUCT
+ (		--- PARANTHESIS BEGIN
+ p		--- IDENTIFIER
+ !=		--- LOGICAL OPERATOR
+ NULL		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ {		--- BLOCK BEGIN
+ printf		--- KEYWORDS
+ (		--- PARANTHESIS BEGIN
+ %d		--- FORMAT PROCESSOR
+ ,		--- COMMA
+ p		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ value		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ ;		--- DELIMITER
+ p		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ p		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ next		--- IDENTIFIER
+ ;		--- DELIMITER
+ }		--- BLOCK END
+ }		--- BLOCK END
+ int		--- DATATYPE
+ main		--- KEYWORDS
+ (		--- PARANTHESIS BEGIN
+ )		--- PARENTHESIS END
+ {		--- BLOCK BEGIN
+ // Initialize nodes		--- COMMENT
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ head		--- IDENTIFIER
+ ;		--- DELIMITER
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ one		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ NULL		--- IDENTIFIER
+ ;		--- DELIMITER
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ two		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ NULL		--- IDENTIFIER
+ ;		--- DELIMITER
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ three		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ NULL		--- IDENTIFIER
+ ;		--- DELIMITER
+ // Allocate memory		--- COMMENT
+ one		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ malloc		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ sizeof		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ )		--- PARENTHESIS END
+ ;		--- DELIMITER
+ two		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ malloc		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ sizeof		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ )		--- PARENTHESIS END
+ ;		--- DELIMITER
+ three		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ malloc		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ sizeof		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ struct		--- DATATYPE
+ node		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ )		--- PARENTHESIS END
+ ;		--- DELIMITER
+ // Assign value 		--- COMMENT
+ one		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ value		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ 1		--- INT
+ ;		--- DELIMITER
+ two		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ value		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ 2		--- INT
+ ;		--- DELIMITER
+ three		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ value		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ 3		--- INT
+ ;		--- DELIMITER
+ // Connect nodes		--- COMMENT
+ one		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ next		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ two		--- IDENTIFIER
+ ;		--- DELIMITER
+ two		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ next		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ three		--- IDENTIFIER
+ ;		--- DELIMITER
+ three		--- IDENTIFIER
+ ->		--- ARROW OPERATOR
+ next		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ NULL		--- IDENTIFIER
+ ;		--- DELIMITER
+ // printing node-value		--- COMMENT
+ head		--- IDENTIFIER
+ =		--- ASSIGNMENT OPERATOR
+ one		--- IDENTIFIER
+ ;		--- DELIMITER
+ printLinkedlist		--- IDENTIFIER
+ (		--- PARANTHESIS BEGIN
+ head		--- IDENTIFIER
+ )		--- PARENTHESIS END
+ ;		--- DELIMITER
+ }		--- BLOCK END
