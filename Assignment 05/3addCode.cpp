@@ -62,7 +62,7 @@ int precedence(char op)
         return 3;       
 return 0; 
 } 
-/* The eqlOrhigher() function is used to check the higher or equal precedence of the two operators in infix expression. */
+/* The eqlOrhigher() function is used to check the higher or equal precedence of the two operators in infix expression.  */
         bool eqlOrhigher(char op1, char op2)
         {
             int p1 = precedence(op1);
