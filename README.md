@@ -13,4 +13,6 @@ To evaluate an arithmetic expression using YACC tool |[Solution](/Assignment%200
 To evaluate or check built-in functions using YACC tool  | [Solution](/Assignment%2004/4b)
 To recognize valid variable name using YACC tool | [Solution](/Assignment%2004/4c)
 Write a (LEX/YACC, C/C++, JAVA, Python) program to generate three address code for the simple expression | [Solution](/Assignment%2005)
+Write a (LEX/YACC, C/C++, JAVA, Python) program to generate three address code for the if else | [Solution](/Assignment%2005)
+
 
