@@ -1,0 +1,1 @@
+<h2>Build a lexer, using LEX, for finding how much the given document say A is related to another document B  (Hint: ignoring words like "is, am, a , the , if, etc." in document A,  store the remaining words and search these words in document B. Decide on a criteria, that if say 40 % words in A exist in B then both are similar. </h2>
