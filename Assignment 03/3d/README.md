@@ -1,6 +1,6 @@
 <h2>
 
-[ For parts of speech for subset of ENGLISH language without using SYMBOL TABLE. ](/Assignment%2003/3d)
+[ Write Lexical Analyser with SYMBOL TABLE for subset of 'C' programming language.	 ](/Assignment%2003/3d)
 
 </h2>
 
